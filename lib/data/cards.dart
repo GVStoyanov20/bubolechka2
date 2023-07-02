@@ -1,163 +1,239 @@
 import '../models/bubo_card.dart';
 
 const cards = [
-  BuboCard(1, 18, "bg_gemuese@3x.png", "aubergine@3x.png", "aubergine.aac", {
-    "de": "Aubergine",
-    "bg": "патладжан",
-    "us": "aubergine",
-    "es": "berenjena"
-  }),
-  BuboCard(2, 18, "bg_gemuese@3x.png", "gurke.aac", "gurke.aac",
-      {"de": "Gurke", "bg": "краставица", "us": "cucumber", "es": "pepino"}),
-  BuboCard(3, 18, "bg_gemuese@3x.png", "karotte.aac", "karotte.aac",
-      {"de": "Karotte", "bg": "морков", "us": "carrot", "es": "zanahoria"}),
-  BuboCard(4, 18, "bg_gemuese@3x.png", "kartoffeln.aac", "kartoffeln.aac",
-      {"de": "Kartoffeln", "bg": "картофи", "us": "potatoes", "es": "papas"}),
-  BuboCard(5, 18, "bg_gemuese@3x.png", "knoblauch.aac", "knoblauch.aac",
-      {"de": "Knoblauch", "bg": "чесън", "us": "garlic", "es": "ajo"}),
-  BuboCard(6, 18, "bg_gemuese@3x.png", "mais.aac", "mais.aac",
-      {"de": "Mais", "bg": "царевица", "us": "corn", "es": "maíz"}),
-  BuboCard(7, 18, "bg_gemuese@3x.png", "paprika.aac", "paprika.aac",
-      {"de": "Paprika", "bg": "чушка", "us": "pepper", "es": "pimienta"}),
-  BuboCard(8, 18, "bg_gemuese@3x.png", "pilze.aac", "pilze.aac",
-      {"de": "Pilze", "bg": "гъба", "us": "mushroom", "es": "champiñón"}),
-  BuboCard(9, 18, "bg_gemuese@3x.png", "salat.aac", "salat.aac",
-      {"de": "Salat", "bg": "маруля", "us": "lettuce", "es": "lechuga"}),
-  BuboCard(10, 18, "bg_gemuese@3x.png", "tomate.aac", "tomate.aac",
-      {"de": "Tomate", "bg": "домат", "us": "tomato", "es": "tomate"}),
-  BuboCard(11, 18, "bg_gemuese@3x.png", "zwiebeln.aac", "zwiebeln.aac",
-      {"de": "Zwiebeln", "bg": "лук", "us": "onion", "es": "cebolla"}),
-  BuboCard(12, 1, "bg_obst@3x.png", "apfel.aac", "apfel.aac",
+
+
+
+
+
+  BuboCard(1, 1, "bg_obst@3x.png", "apfel.aac", "apfel.aac",
       {"de": "Apfel", "bg": "ябълка", "us": "apple", "es": "manzana"}),
-  BuboCard(13, 1, "bg_obst@3x.png", "aprikose.aac", "aprikose.aac",
+
+  BuboCard(2, 1, "bg_obst@3x.png", "aprikose.aac", "aprikose.aac",
       {"de": "Aprikose", "bg": "кайсия", "us": "apricot", "es": "albaricoque"}),
-  BuboCard(14, 1, "bg_obst@3x.png", "banene.aac", "banene.aac",
+
+  BuboCard(3, 1, "bg_obst@3x.png", "banane.aac", "banane.aac",
       {"de": "Banane", "bg": "банан", "us": "banana", "es": "banana"}),
-  BuboCard(15, 1, "bg_obst@3x.png", "birne.aac", "birne.aac",
+
+  BuboCard(4, 1, "bg_obst@3x.png", "birne.aac", "birne.aac",
       {"de": "Birne", "bg": "круша", "us": "pear", "es": "pera"}),
-  BuboCard(16, 1, "bg_obst@3x.png", "birne.aac", "birne.aac",
-      {"de": "Birne", "bg": "круша", "us": "pear", "es": "pera"}),
-  BuboCard(17, 1, "bg_obst@3x.png", "himbeere.aac", "himbeere.aac",
+
+  BuboCard(6, 1, "bg_obst@3x.png", "himbeere.aac", "himbeere.aac",
       {"de": "Himbeere", "bg": "малина", "us": "raspberry", "es": "frambuesa"}),
-  BuboCard(18, 1, "bg_obst@3x.png", "kirsche.aac", "kirsche.aac",
+
+  BuboCard(7, 1, "bg_obst@3x.png", "kirsche.aac", "kirsche.aac",
       {"de": "Kirsche", "bg": "череша", "us": "cherry", "es": "cereza"}),
-  BuboCard(19, 1, "bg_obst@3x.png", "orange_frucht.aac", "orange_frucht.aac",
+
+  BuboCard(8, 1, "bg_obst@3x.png", "orange_frucht.aac", "orange_frucht.aac",
       {"de": "Orange", "bg": "портокал", "us": "orange", "es": "naranja"}),
-  BuboCard(20, 1, "bg_obst@3x.png", "pfirsich.aac", "pfirsich.aac",
+
+  BuboCard(9, 1, "bg_obst@3x.png", "pfirsich.aac", "pfirsich.aac",
       {"de": "Pfirsich", "bg": "праскова", "us": "peach", "es": "durazno"}),
-  BuboCard(21, 1, "bg_obst@3x.png", "wassermelone.aac", "wassermelone.aac",
+
+  BuboCard(10, 1, "bg_obst@3x.png", "wassermelone.aac", "wassermelone.aac",
       {"de": "Wassermelone", "bg": "диня", "us": "watermelon", "es": "sandía"}),
-  BuboCard(22, 1, "bg_obst@3x.png", "weintrauben.aac", "weintrauben.aac",
+
+  BuboCard(11, 1, "bg_obst@3x.png", "weintrauben.aac", "weintrauben.aac",
       {"de": "Weintrauben", "bg": "грозде", "us": "grapes", "es": "uvas"}),
-  BuboCard(23, 1, "bg_obst@3x.png", "zitrone.aac", "zitrone.aac",
+
+  BuboCard(12, 1, "bg_obst@3x.png", "zitrone.aac", "zitrone.aac",
       {"de": "Zitrone", "bg": "лимон", "us": "lemon", "es": "limón"}),
-  BuboCard(23, 1, "bg_obst@3x.png", "zitrone.aac", "zitrone.aac",
-      {"de": "Zitrone", "bg": "лимон", "us": "lemon", "es": "limón"}),
-  BuboCard(24, 2, "bg_Weiss@3x.png", "blau.aac", "blau.aac",
+
+
+
+
+
+  BuboCard(13, 2, "bg_Weiss@3x.png", "blau.aac", "blau.aac",
       {"de": "blau", "bg": "синьо", "us": "blue", "es": "azul"}),
-  BuboCard(25, 2, "bg_Weiss@3x.png", "braun.aac", "braun.aac",
+
+  BuboCard(14, 2, "bg_Weiss@3x.png", "braun.aac", "braun.aac",
       {"de": "braun", "bg": "кафяво", "us": "brown", "es": "marrón"}),
-  BuboCard(26, 2, "bg_Weiss@3x.png", "gelb.aac", "gelb.aac",
+
+  BuboCard(15, 2, "bg_Weiss@3x.png", "gelb.aac", "gelb.aac",
       {"de": "gelb", "bg": "жълто", "us": "yellow", "es": "amarillo"}),
-  BuboCard(27, 2, "bg_Weiss@3x.png", "grau.aac", "grau.aac",
+
+  BuboCard(16, 2, "bg_Weiss@3x.png", "grau.aac", "grau.aac",
       {"de": "grau", "bg": "сиво", "us": "grey", "es": "gris"}),
-  BuboCard(28, 2, "bg_Weiss@3x.png", "gruen.aac", "gruen.aac",
+
+  BuboCard(17, 2, "bg_Weiss@3x.png", "gruen.aac", "gruen.aac",
       {"de": "grün", "bg": "зелено", "us": "green", "es": "verde"}),
-  BuboCard(29, 2, "bg_Weiss@3x.png", "lila.aac", "lila.aac",
+
+  BuboCard(18, 2, "bg_Weiss@3x.png", "lila.aac", "lila.aac",
       {"de": "lila", "bg": "лилаво", "us": "purple", "es": "morado"}),
-  BuboCard(30, 2, "bg_Weiss@3x.png", "orange.aac", "orange.aac",
+
+  BuboCard(19, 2, "bg_Weiss@3x.png", "orange.aac", "orange.aac",
       {"de": "orange", "bg": "оранжево", "us": "orange", "es": "naranja"}),
-  BuboCard(31, 2, "bg_Weiss@3x.png", "rosa.aac", "rosa.aac",
+
+  BuboCard(20, 2, "bg_Weiss@3x.png", "rosa.aac", "rosa.aac",
       {"de": "rosa", "bg": "розово", "us": "rose", "es": "rosa"}),
-  BuboCard(32, 2, "bg_Weiss@3x.png", "rot.aac", "rot.aac",
+
+  BuboCard(21, 2, "bg_Weiss@3x.png", "rot.aac", "rot.aac",
       {"de": "rot", "bg": "червено", "us": "red", "es": "rojo"}),
-  BuboCard(33, 2, "bg_Weiss@3x.png", "schwarz.aac", "schwarz.aac",
+
+  BuboCard(22, 2, "bg_Weiss@3x.png", "schwarz.aac", "schwarz.aac",
       {"de": "schwarz", "bg": "черно", "us": "black", "es": "negro"}),
-  BuboCard(34, 2, "bg_Weiss@3x.png", "weiss.aac", "weiss.aac",
+
+  BuboCard(23, 2, "bg_Weiss@3x.png", "weiss.aac", "weiss.aac",
       {"de": "weiss", "bg": "бяло", "us": "white", "es": "blanco"}),
-  BuboCard(35, 3, "bg_moebel@3x.png", "bett.aac", "bett.aac",
+
+
+
+
+
+
+  BuboCard(24, 3, "bg_moebel@3x.png", "bett.aac", "bett.aac",
       {"de": "Bett", "bg": "легло", "us": "bed", "es": "cama"}),
-  BuboCard(36, 3, "bg_moebel@3x.png", "fenster.aac", "fenster.aac",
+
+  BuboCard(25, 3, "bg_moebel@3x.png", "fenster.aac", "fenster.aac",
       {"de": "Fenster", "bg": "прозорец", "us": "window", "es": "ventana"}),
-  BuboCard(
-      37, 3, "bg_moebel@3x.png", "kleiderschrank.aac", "kleiderschrank.aac", {
-    "de": "Kleiderschrank",
-    "bg": "гардероб",
-    "us": "wardrobe",
-    "es": "armario"
-  }),
-  BuboCard(38, 3, "bg_moebel@3x.png", "lampe.aac", "lampe.aac",
+
+  BuboCard(26, 3, "bg_moebel@3x.png", "kleiderschrank.aac", "kleiderschrank.aac", 
+      {"de": "Kleiderschrank","bg": "гардероб","us": "wardrobe","es": "armario"}),
+
+  BuboCard(27, 3, "bg_moebel@3x.png", "lampe.aac", "lampe.aac",
       {"de": "Lampe", "bg": "лампа", "us": "lamp", "es": "lámpara"}),
-  BuboCard(39, 3, "bg_moebel@3x.png", "schrank.aac", "schrank.aac",
+
+  BuboCard(28, 3, "bg_moebel@3x.png", "schrank.aac", "schrank.aac",
       {"de": "Schrank", "bg": "шкаф", "us": "cabinet", "es": "gabinete"}),
-  BuboCard(40, 3, "bg_moebel@3x.png", "sessel.aac", "sessel.aac",
+
+  BuboCard(29, 3, "bg_moebel@3x.png", "sessel.aac", "sessel.aac",
       {"de": "Sessel", "bg": "фотьол", "us": "armchair", "es": "sillón"}),
-  BuboCard(41, 3, "bg_moebel@3x.png", "sofa.aac", "sofa.aac",
+
+  BuboCard(30, 3, "bg_moebel@3x.png", "sofa.aac", "sofa.aac",
       {"de": "Sofa", "bg": "диван", "us": "sofa", "es": "sofá"}),
-  BuboCard(42, 3, "bg_moebel@3x.png", "stuhl.aac", "stuhl.aac",
+
+  BuboCard(31, 3, "bg_moebel@3x.png", "stuhl.aac", "stuhl.aac",
       {"de": "Stuhl", "bg": "стол", "us": "chair", "es": "silla"}),
-  BuboCard(43, 3, "bg_moebel@3x.png", "tisch.aac", "tisch.aac",
+
+  BuboCard(32, 3, "bg_moebel@3x.png", "tisch.aac", "tisch.aac",
       {"de": "Tisch", "bg": "маса", "us": "table", "es": "mesa"}),
-  BuboCard(44, 3, "bg_moebel@3x.png", "tuer.aac", "tuer.aac",
+
+  BuboCard(33, 3, "bg_moebel@3x.png", "tuer.aac", "tuer.aac",
       {"de": "Tür", "bg": "врата", "us": "door", "es": "puerta"}),
-  BuboCard(45, 4, "bg_sachen@3x.png", "hemd.aac", "hemd.aac",
+
+
+
+
+
+  BuboCard(34, 4, "bg_sachen@3x.png", "hemd.aac", "hemd.aac",
       {"de": "Hemd", "bg": "риза", "us": "shirt", "es": "camisa"}),
-  BuboCard(46, 4, "bg_sachen@3x.png", "hose.aac", "hose.aac",
+
+  BuboCard(35, 4, "bg_sachen@3x.png", "hose.aac", "hose.aac",
       {"de": "Hose", "bg": "панталон", "us": "trousers", "es": "pantalones"}),
-  BuboCard(47, 4, "bg_sachen@3x.png", "hut.aac", "hut.aac",
+
+  BuboCard(36, 4, "bg_sachen@3x.png", "hut.aac", "hut.aac",
       {"de": "Hut", "bg": "шапка", "us": "hat", "es": "sombrero"}),
-  BuboCard(48, 4, "bg_sachen@3x.png", "jacke.aac", "jacke.aac",
+
+  BuboCard(37, 4, "bg_sachen@3x.png", "jacke.aac", "jacke.aac",
       {"de": "Jacke", "bg": "яке", "us": "jacket", "es": "chaqueta"}),
-  BuboCard(49, 4, "bg_sachen@3x.png", "kleid.aac", "kleid.aac",
+
+  BuboCard(38, 4, "bg_sachen@3x.png", "kleid.aac", "kleid.aac",
       {"de": "Kleid", "bg": "рокля", "us": "dress", "es": "vestido"}),
-  BuboCard(50, 4, "bg_sachen@3x.png", "pullover.aac", "pullover.aac",
+
+  BuboCard(39, 4, "bg_sachen@3x.png", "pullover.aac", "pullover.aac",
       {"de": "Pullover", "bg": "пуловер", "us": "pullover", "es": "suéter"}),
-  BuboCard(51, 4, "bg_sachen@3x.png", "rock.aac", "rock.aac",
+
+  BuboCard(40, 4, "bg_sachen@3x.png", "rock.aac", "rock.aac",
       {"de": "Rock", "bg": "пола", "us": "skirt", "es": "falda"}),
-  BuboCard(52, 4, "bg_sachen@3x.png", "schal.aac", "schal.aac",
+
+  BuboCard(41, 4, "bg_sachen@3x.png", "schal.aac", "schal.aac",
       {"de": "Schal", "bg": "шал", "us": "scarf", "es": "bufanda"}),
-  BuboCard(53, 4, "bg_sachen@3x.png", "schuhe.aac", "schuhe.aac",
+
+  BuboCard(42, 4, "bg_sachen@3x.png", "schuhe.aac", "schuhe.aac",
       {"de": "Schuhe", "bg": "обувки", "us": "shoes", "es": "zapatos"}),
-  BuboCard(54, 4, "bg_sachen@3x.png", "shirt.aac", "shirt.aac",
+
+  BuboCard(43, 4, "bg_sachen@3x.png", "shirt.aac", "shirt.aac",
       {"de": "Shirt", "bg": "фанелка", "us": "t-shirt", "es": "camiseta"}),
-  BuboCard(55, 5, "bg_spielzeug@3x.png", "auto.aac", "auto.aac",
+
+
+
+
+
+  BuboCard(44, 5, "bg_spielzeug@3x.png", "auto.aac", "auto.aac",
       {"de": "Auto", "bg": "кола", "us": "car", "es": "auto"}),
-  BuboCard(56, 5, "bg_spielzeug@3x.png", "ball.aac", "ball.aac",
+
+  BuboCard(45, 5, "bg_spielzeug@3x.png", "ball.aac", "ball.aac",
       {"de": "Ball", "bg": "топка", "us": "ball", "es": "pelota"}),
-  BuboCard(57, 5, "bg_spielzeug@3x.png", "bausteine.aac", "bausteine.aac", {
-    "de": "Bausteine",
-    "bg": "кубчета",
-    "us": "building blocks",
-    "es": "bloques de construcción"
-  }),
-  BuboCard(58, 5, "bg_spielzeug@3x.png", "buch.aac", "buch.aac",
+
+  BuboCard(46, 5, "bg_spielzeug@3x.png", "bausteine.aac", "bausteine.aac",
+      {"de": "Bausteine","bg": "кубчета","us": "building blocks","es": "bloques de construcción"}),
+
+  BuboCard(47, 5, "bg_spielzeug@3x.png", "buch.aac", "buch.aac",
       {"de": "Buch", "bg": "книга", "us": "book", "es": "libro"}),
-  BuboCard(59, 5, "bg_spielzeug@3x.png", "buntstifte.aac", "buntstifte.aac", {
-    "de": "Buntstifte",
-    "bg": "цветни моливи",
-    "us": "color pencils",
-    "es": "lápices de colores"
-  }),
-  BuboCard(60, 5, "bg_spielzeug@3x.png", "farben.aac", "farben.aac",
+
+  BuboCard(48, 5, "bg_spielzeug@3x.png", "buntstifte.aac", "buntstifte.aac",
+      {"de": "Buntstifte","bg": "цветни моливи","us": "color pencils","es": "lápices de colores"}),
+
+  BuboCard(49, 5, "bg_spielzeug@3x.png", "farben.aac", "farben.aac",
       {"de": "Farben", "bg": "бои", "us": "colors", "es": "colores"}),
-  BuboCard(61, 5, "bg_spielzeug@3x.png", "kuscheltier.aac", "kuscheltier.aac", {
-    "de": "Kuscheltier",
-    "bg": "плюшена играчка",
-    "us": "stuffed animal",
-    "es": "peluche"
-  }),
-  BuboCard(62, 5, "bg_spielzeug@3x.png", "puppe.aac", "puppe.aac",
+
+  BuboCard(50, 5, "bg_spielzeug@3x.png", "kuscheltier.aac", "kuscheltier.aac",
+      {"de": "Kuscheltier","bg": "плюшена играчка","us": "stuffed animal","es": "peluche"}),
+
+  BuboCard(51, 5, "bg_spielzeug@3x.png", "puppe.aac", "puppe.aac",
       {"de": "Puppe", "bg": "кукла", "us": "puppet", "es": "marioneta"}),
-  BuboCard(63, 5, "bg_spielzeug@3x.png", "puzzle.aac", "puzzle.aac",
+
+  BuboCard(52, 5, "bg_spielzeug@3x.png", "puzzle.aac", "puzzle.aac",
       {"de": "Puzzle", "bg": "пъзели", "us": "puzzle", "es": "rompecabezas"}),
-  BuboCard(64, 5, "bg_spielzeug@3x.png", "spielzeug.aac", "spielzeug.aac",
+
+  BuboCard(53, 5, "bg_spielzeug@3x.png", "spielzeug.aac", "spielzeug.aac",
       {"de": "Spielzeug", "bg": "играчка", "us": "toy", "es": "juguete"}),
-  BuboCard(65, 6, "bg_tiere@3x.png", "fuchs.aac", "fuchs.aac",
+
+
+
+
+
+  BuboCard(54, 6, "bg_tiere@3x.png", "fuchs.aac", "fuchs.aac",
       {"de": "Fuchs", "bg": "лисица", "us": "fox", "es": "zorro"}),
-  BuboCard(66, 6, "bg_tiere@3x.png", "hase.aac", "hase.aac",
+
+  BuboCard(55, 6, "bg_tiere@3x.png", "hase.aac", "hase.aac",
       {"de": "Hase", "bg": "заек", "us": "rabbit", "es": "conejo"}),
-  BuboCard(67, 6, "bg_tiere@3x.png", "huhn.aac", "huhn.aac",
+
+  BuboCard(56, 6, "bg_tiere@3x.png", "huhn.aac", "huhn.aac",
       {"de": "Huhn", "bg": "кокошка", "us": "rabbit", "es": "pollo"}),
+
+      
+
+
+
+
+  BuboCard(57, 18, "bg_gemuese@3x.png", "aubergine@3x.png", "aubergine.aac", 
+      {"de": "Aubergine","bg": "патладжан","us": "aubergine","es": "berenjena"}),
+
+  BuboCard(58, 18, "bg_gemuese@3x.png", "gurke.aac", "gurke.aac",
+      {"de": "Gurke", "bg": "краставица", "us": "cucumber", "es": "pepino"}),
+
+  BuboCard(59, 18, "bg_gemuese@3x.png", "karotte.aac", "karotte.aac",
+      {"de": "Karotte", "bg": "морков", "us": "carrot", "es": "zanahoria"}),
+
+  BuboCard(60, 18, "bg_gemuese@3x.png", "kartoffeln.aac", "kartoffeln.aac",
+      {"de": "Kartoffeln", "bg": "картофи", "us": "potatoes", "es": "papas"}),
+
+  BuboCard(61, 18, "bg_gemuese@3x.png", "knoblauch.aac", "knoblauch.aac",
+      {"de": "Knoblauch", "bg": "чесън", "us": "garlic", "es": "ajo"}),
+
+  BuboCard(62, 18, "bg_gemuese@3x.png", "mais.aac", "mais.aac",
+      {"de": "Mais", "bg": "царевица", "us": "corn", "es": "maíz"}),
+
+  BuboCard(63, 18, "bg_gemuese@3x.png", "paprika.aac", "paprika.aac",
+      {"de": "Paprika", "bg": "чушка", "us": "pepper", "es": "pimienta"}),
+
+  BuboCard(64, 18, "bg_gemuese@3x.png", "pilze.aac", "pilze.aac",
+      {"de": "Pilze", "bg": "гъба", "us": "mushroom", "es": "champiñón"}),
+
+  BuboCard(65, 18, "bg_gemuese@3x.png", "salat.aac", "salat.aac",
+      {"de": "Salat", "bg": "маруля", "us": "lettuce", "es": "lechuga"}),
+
+  BuboCard(66, 18, "bg_gemuese@3x.png", "tomate.aac", "tomate.aac",
+      {"de": "Tomate", "bg": "домат", "us": "tomato", "es": "tomate"}),
+
+  BuboCard(67, 18, "bg_gemuese@3x.png", "zwiebeln.aac", "zwiebeln.aac",
+      {"de": "Zwiebeln", "bg": "лук", "us": "onion", "es": "cebolla"}),
+
+
+
+
+
   // {
   // "id": 67,
   // "category": "Tiere",

@@ -14,18 +14,17 @@ const labels = [
   ["4", "Sachen", "дрехи", "clothes", "ropa"],
   ["5", "Spielzeug", "играчки", "toys", "juguetes"],
   ["6", "Tiere", "животни", "animals", "animales"],
-  ["7", "Wilde Tiere", "диви животни", "wild animals", "animales salvajes"],
-  ["8", "Zahlen", "цифри", "digits", "dígitos"],
-  ["9", "Wetter", "времето", "weather", "clima"],
-  ["10", "Zu Hause", "вкъщи", "at home", "en casa"],
-  ["11", "Natur", "природа", "nature", "naturaleza"],
-  ["12", "Im Meer", "морето", "sea", "mar"],
-  ["13", "Am Strand", "на плажа", "on the beach", "en la playa"],
-  ["14", "Sport", "спорт", "sport", "deporte"],
-  ["15", "Stadt", "град", "city", "ciudad"],
-  ["16", "Berufe", "професии", "professions", "profesiones"],
-  ["17", "Fahrzeuge", "транспрорт", "transport", "transporte"],
-  ["18", "Gemuese", "зеленчуци", "vegetables", "verduras"]
+  ["7", "Zahlen", "цифри", "digits", "dígitos"],
+  ["8", "Wetter", "времето", "weather", "clima"],
+  ["9", "Zu Hause", "вкъщи", "at home", "en casa"],
+  ["10", "Natur", "природа", "nature", "naturaleza"],
+  ["11", "Im Meer", "морето", "sea", "mar"],
+  ["12", "Am Strand", "на плажа", "on the beach", "en la playa"],
+  ["13", "Sport", "спорт", "sport", "deporte"],
+  ["14", "Stadt", "град", "city", "ciudad"],
+  ["15", "Berufe", "професии", "professions", "profesiones"],
+  ["16", "Fahrzeuge", "транспрорт", "transport", "transporte"],
+  ["17", "Gemuese", "зеленчуци", "vegetables", "verduras"]
 ];
 
 ///

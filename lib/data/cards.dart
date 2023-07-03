@@ -182,21 +182,7 @@ const cards = [
 
 
 
-
-  BuboCard(54, 6, "bg_tiere@3x.png", "fuchs.aac", "fuchs.aac",
-      {"de": "Fuchs", "bg": "лисица", "us": "fox", "es": "zorro"}),
-
-  BuboCard(55, 6, "bg_tiere@3x.png", "hase.aac", "hase.aac",
-      {"de": "Hase", "bg": "заек", "us": "rabbit", "es": "conejo"}),
-
-  BuboCard(56, 6, "bg_tiere@3x.png", "huhn.aac", "huhn.aac",
-      {"de": "Huhn", "bg": "кокошка", "us": "rabbit", "es": "pollo"}),
-
       
-
-
-
-
   BuboCard(57, 18, "bg_gemuese@3x.png", "aubergine@3x.png", "aubergine.aac", 
       {"de": "Aubergine","bg": "патладжан","us": "aubergine","es": "berenjena"}),
 

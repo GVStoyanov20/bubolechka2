@@ -8,6 +8,6 @@ void main() {
   // );
   // greetMe();
 
-  var p1 = Person.named(name: 'Martin Dobrev');
+  var p1 = Person.named(name: 'Georgi Stoyanov');
   p1.greetPerson();
 }

@@ -25,7 +25,8 @@ const labels = [
   ["15", "Stadt", "град", "city", "ciudad"],
   ["16", "Berufe", "професии", "professions", "profesiones"],
   ["17", "Fahrzeuge", "транспрорт", "transport", "transporte"],
-  ["18", "Gemuese", "зеленчуци", "vegetables", "verduras"]
+  ["18", "Gemuese", "зеленчуци", "vegetables", "verduras"],
+  ["19", "Nike Dunk High Retro", "Nike Dunk High Retro", "Nike Dunk High Retro", "Nike Dunk High Retro"]
 ];
 
 ///

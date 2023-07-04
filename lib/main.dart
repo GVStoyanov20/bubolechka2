@@ -52,7 +52,7 @@ class _BuboHomePageState extends State<BuboHomePage> {
             constraints: const BoxConstraints.expand(),
             decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/main_background.png'),
+                    image: AssetImage('assets/background.png'),
                     fit: BoxFit.cover)),
             child: null,
           ),
@@ -78,7 +78,7 @@ class _BuboHomePageState extends State<BuboHomePage> {
             bottom: 30,
             left: 30,
             width: 200,
-            child: Image.asset('assets/bubo_logo.png'),
+            child: Image.asset('assets/logo.png'),
           ),
         ],
       ),

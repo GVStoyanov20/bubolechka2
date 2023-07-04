@@ -213,34 +213,34 @@ const cards = [
 
 
 
-  BuboCard(63, 7, " bg_tiere@3x.png", "affe.aac", "affe.aac",
+  BuboCard(63, 7, " bg_wilde_tiere@3x.png", "affe.aac", "affe.aac",
       {"de": "Affe", "bg": "маймуна", "us": "monkey", "es": "mono"}),
 
-  BuboCard(64, 7, " bg_tiere@3x.png", "baer.aac", "baer.aac",
+  BuboCard(64, 7, " bg_wilde_tiere@3x.png", "baer.aac", "baer.aac",
       {"de": "Bär", "bg": "мечка", "us": "monkey", "es": "oso"}),
 
-  BuboCard(65, 7, " bg_tiere@3x.png", "elefant.aac", "elefant.aac",
+  BuboCard(65, 7, "bg_wilde_tiere@3x.png", "elefant.aac", "elefant.aac",
       {"de": "Elefant", "bg": "слон", "us": "elephant", "es": "elefante"}),
 
-  BuboCard(66, 7, "BACKGROUND.PNG", "Giraffe.aac", "Giraffe.aac",
+  BuboCard(66, 7, "bg_wilde_tiere@3x.png", "Giraffe.aac", "Giraffe.aac",
       {"de": "Giraffe", "bg": "жираф", "us": "giraffe", "es": "jirafa"}),
 
-  BuboCard(67, 7, "BACKGROUND.PNG", "Krokodil.aac", "Krokodil.aac", 
+  BuboCard(67, 7, "bg_wilde_tiere@3x.png", "Krokodil.aac", "Krokodil.aac", 
   {"de": "Krokodil","bg": "крокодил",}),
 
-  BuboCard(68, 7, "BACKGROUND.PNG", "Loewe.aac", "Loewe.aac",
+  BuboCard(68, 7, "bg_wilde_tiere@3x.png", "Loewe.aac", "Loewe.aac",
       {"de": "Loewe", "bg": "лъв", "us": "lion", "es": "león"}),
 
-  BuboCard(69, 7, "BACKGROUND.PNG", "Nashorn.aac", "Nashorn.aac",
+  BuboCard(69, 7, "bg_wilde_tiere@3x.png", "Nashorn.aac", "Nashorn.aac",
       {"de": "Nashorn", "bg": "носорог", "us": "rhino", "es": "rinoceronte"}),
 
-  BuboCard(70, 7, "BACKGROUND.PNG", "Schlange.aac", "Schlange.aac",
+  BuboCard(70, 7, "bg_wilde_tiere@3x.png", "Schlange.aac", "Schlange.aac",
       {"de": "Schlange", "bg": "змия", "us": "snake", "es": "serpiente"}),
 
-  BuboCard(71, 7, "BACKGROUND.PNG", "Tiger.aac", "Tiger.aac",
+  BuboCard(71, 7, "bg_wilde_tiere@3x.png", "Tiger.aac", "Tiger.aac",
       {"de": "Tiger", "bg": "тигър", "us": "tiger", "es": "tigre"}),
 
-  BuboCard(72, 7, "BACKGROUND.PNG", "Zebra.aac", "Zebra.aac",
+  BuboCard(72, 7, "bg_wilde_tiere@3x.png", "Zebra.aac", "Zebra.aac",
       {"de": "Zebra", "bg": "зебра", "us": "zebra", "es": "cebra"}),
 
 
@@ -555,7 +555,7 @@ const cards = [
 
   BuboCard(162, 18, "bg_gemuese@3x.png", "aubergine@3x.png", "aubergine.aac", 
       {"de": "Aubergine","bg": "патладжан","us": "aubergine","es": "berenjena" }),
-
+      
   BuboCard(163, 18, "bg_gemuese@3x.png", "gurke.aac", "gurke.aac",
       {"de": "Gurke", "bg": "краставица", "us": "cucumber", "es": "pepino"}),
 
@@ -586,4 +586,28 @@ const cards = [
   BuboCard(172, 18, "bg_gemuese@3x.png", "zwiebeln.aac", "zwiebeln.aac",
       {"de": "Zwiebeln", "bg": "лук", "us": "onion", "es": "cebolla"}),
 
+
+
+
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "1.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "2.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "3.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "4.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "5.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "6.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
+
+  BuboCard(173, 19, "bg_Nike_Dunk_High_Retro.png", "7.png", "one.aac",
+      {"de": "Nike Dunk High Retro", "bg": "Nike Dunk High Retro", "us": "Nike Dunk High Retro", "es": "Nike Dunk High Retro"}),
 ];
